@@ -20,7 +20,7 @@ class MyAppState extends State<MyApp> {
         const Breakpoint(start: 1000, end: 1200, name: TABLET),
         const Breakpoint(start: 1200, end: 2460, name: "4K"),
       ], child: child!),
-      title: "Fun Learning",
+      title: "Anaya School",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,

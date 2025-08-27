@@ -119,10 +119,7 @@ class _AnimalQuizState extends State<AnimalQuiz> {
                                                           fontSize: 20),
                                                     ),
                                                     description:
-                                                        const SizedBox(),
-                                                    iconType:
-                                                        IconType.cupertino)
-                                                .show(context);
+                                                        const SizedBox()).show(context);
                                           } else {
                                             setState(() {
                                               isPressed = true;
@@ -138,10 +135,7 @@ class _AnimalQuizState extends State<AnimalQuiz> {
                                                           fontSize: 20),
                                                     ),
                                                     description:
-                                                        const SizedBox(),
-                                                    iconType:
-                                                        IconType.cupertino)
-                                                .show(context);
+                                                        const SizedBox()).show(context);
                                           }
                                         },
                                   child: Text(

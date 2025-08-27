@@ -132,9 +132,7 @@ class _BirdsSongState extends State<BirdsSong> {
                                                     style:
                                                         TextStyle(fontSize: 20),
                                                   ),
-                                                  description: const SizedBox(),
-                                                  iconType: IconType.cupertino)
-                                              .show(context);
+                                                  description: const SizedBox()).show(context);
                                         } else {
                                           setState(() {
                                             isPressed = true;
@@ -149,9 +147,7 @@ class _BirdsSongState extends State<BirdsSong> {
                                                     style:
                                                         TextStyle(fontSize: 20),
                                                   ),
-                                                  description: const SizedBox(),
-                                                  iconType: IconType.cupertino)
-                                              .show(context);
+                                                  description: const SizedBox()).show(context);
                                         }
                                       },
                                 child: Image(

@@ -121,10 +121,7 @@ class _MonthquizState extends State<Monthquiz> {
                                                           fontSize: 20),
                                                     ),
                                                     description:
-                                                        const SizedBox(),
-                                                    iconType:
-                                                        IconType.cupertino)
-                                                .show(context);
+                                                        const SizedBox()).show(context);
                                           } else {
                                             setState(() {
                                               isPressed = true;
@@ -140,10 +137,7 @@ class _MonthquizState extends State<Monthquiz> {
                                                       "Your Answer is Wrong",
                                                       style: TextStyle(
                                                           fontSize: 20),
-                                                    ),
-                                                    iconType:
-                                                        IconType.cupertino)
-                                                .show(context);
+                                                    )).show(context);
                                           }
                                         },
                                   child: Text(

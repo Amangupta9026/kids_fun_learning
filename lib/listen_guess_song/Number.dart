@@ -132,10 +132,7 @@ class _NumberSongState extends State<NumberSong> {
                                                           fontSize: 20),
                                                     ),
                                                     description:
-                                                        const SizedBox(),
-                                                    iconType:
-                                                        IconType.cupertino)
-                                                .show(context);
+                                                        const SizedBox()).show(context);
                                           } else {
                                             setState(() {
                                               isPressed = true;
@@ -151,10 +148,7 @@ class _NumberSongState extends State<NumberSong> {
                                                           fontSize: 20),
                                                     ),
                                                     description:
-                                                        const SizedBox(),
-                                                    iconType:
-                                                        IconType.cupertino)
-                                                .show(context);
+                                                        const SizedBox()).show(context);
                                           }
                                         },
                                   child: Image(
